@@ -1,0 +1,8 @@
+@import url(reset.css);
+@import url(colors.css);
+@import url(home.css);
+@import url(header.css);
+
+body{
+    background-color: var(--bg-home);
+}
