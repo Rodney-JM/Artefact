@@ -1,5 +1,5 @@
 main{
-    height: 70vh;
+    height: 80vh;
     width: 100%;
 
     display: flex;
@@ -14,10 +14,11 @@ main .home{
     align-items: center;
 
     text-align: center;
+    object-fit: cover;
 }
 
 main .home img{
-    width: 35%;
+    width: 50%;
 
     filter: drop-shadow(1rem 1rem .9rem #00000080);  
     
@@ -28,6 +29,7 @@ main .home img{
     -moz-user-select: none; /*(Firefox) */ 
     -ms-user-select: none; /*Internet Explorer/Edge */
     user-select:none;
+    z-index: 10;
 }
 
 main .home h2{
@@ -48,19 +50,29 @@ main .home span{
 
 main .home p{
     margin-top: 1rem;
+    margin-bottom: 2rem;
     font-family: sans-serif;
 
     color: var(--text-color);
 }
 
-main .home .button{
+main .button{
     color: var(--bg-home);
 
     font-family: "Palanquin", sans-serif;
 
     text-decoration: none;
     background-color: var(--text-color);
+    font-size: 1.1rem;
 
     padding: .5rem 2rem;
-    margin-top: 2rem;
+
+    margin: 1rem;
+    border-radius: .2rem;
+
+    transition: all 0.2s ease;
+}
+
+main .button:hover{
+    background-color: #6a6d76;
 }
