@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artefato - Fale conosco</title>
+
+    
+    <!-- fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./src/css/main.css">
+    <link rel="stylesheet" href="./src/css/pedidos.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logotype">
+            <img src="./src/assets/icons/logotype.png" alt="logotype">
+        </div>
+        <nav class="navbar">
+            <ul>
+                <a href="home.html"><li>Home</li></a>
+                <a href="#"><li>Pedidos</li></a><a href="index.html"><li>Sair</li></a>
+            </ul>
+        </nav>
+        <div class="nav-inner-container"><i class="fa-solid fa-bars menu-button"></i></div> 
+    </header>
+    <main>
+        <section class="pedidos">
+            <div>
+                <h2>Lista de pedidos</h2>
+
+                <button class="p_button">Adicionar pedido</button>
+            </div>
+            <ul id="pedidos-list">
+
+            </ul>
+        </section>
+        <i class="fa-solid fa-xmark hidden"></i>
+        <div class="pedido-form hidden">
+            <h2 class="fc_title">Efetue o seu pedido</h2>
+            <p class="fc_desc">Preencha os campos abaixo</p>
+            <form action="" method="post">
+                <input type="text" name="name" placeholder="Nome" class="input">
+                <input type="email" name="email" placeholder="Email" class="input">
+                <input type="text" name="assunto" placeholder="Assunto" class="input">
+                <input type="text" name="mensagem" placeholder="Digite a mensagem" class="input input_large">
+                <button type="submit" class="lg_button">
+                    Enviar
+                </button>
+                <p id="error-message" class="error-message"></p>
+            </form>
+        </div>
+    </main>
+
+    <script src="./src/scripts/pedidos.js"></script>
+</body>
+</html>

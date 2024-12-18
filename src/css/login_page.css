@@ -1,0 +1,172 @@
+@import url(colors.css);
+
+main{
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lg_content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+
+    gap: .2rem;
+    margin-bottom: 1rem;
+}
+
+.lg_content h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+
+    color: var(--text-color);
+}
+
+.lg_content p{
+    font-family: "Palanquin", sans-serif;
+    color:var(--text-color-secundary);
+}
+
+.lg_content a{
+    color: var(--text-color-secundary);
+}
+
+form{
+    width: 25vw;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.input{
+    width: 100%;
+    background-color: var(--input-bg);
+    outline: none;
+    border: none;
+    border-radius: .2rem;
+    padding: .9rem 1.8rem;
+
+    color: aliceblue;
+}
+
+.input_half{
+    width: 50%;
+    background-color: var(--input-bg);
+    outline: none;
+    border: none;
+    border-radius: .2rem;
+    padding: .9rem 1.8rem;
+
+    color: aliceblue;
+}
+
+.input::placeholder{
+    color: var(--text-color);
+    font-size: 1rem;
+}
+
+.input_half::placeholder{
+    color: var(--text-color);
+    font-size: 1rem;
+}
+
+.lg_button{
+    outline: none;
+    border: none;
+    border-radius: .2rem;
+
+    padding: .7rem 0;
+
+    background-color: var(--button-bg);
+    color: white;
+
+    font-size: 1rem;
+
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.lg_button:hover{
+    background-color: var(--button-bg-hover);
+}
+
+.lg_button:active{
+    background-color: var(--button-bg-active);
+}
+
+.lg_log_option_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: .5rem;
+}
+
+.lg_log_option_content p{
+    font-family: "Montserrat", sans-serif;
+    color: var(--text-color-secundary);
+
+    font-size: .9rem;
+
+}
+
+.lg_line{
+    background-color: var(--text-color-secundary);
+
+    height: 2px;
+    width: 30%;
+}
+
+.lg_log_option{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.register_method{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: "Palanquin", sans-serif;
+    text-decoration: none;
+
+    padding: .5rem 0;
+
+    border: 2px solid white;
+    border-radius: .2rem;
+    height: 3rem;
+    width: 50%;
+}
+
+.fa-arrow-left{
+    margin: 1rem;
+    color: var(--text-color-secundary);
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.fa-arrow-left:hover{
+    transform: translateY(-2px);
+}
+
+/* register */
+
+.name{
+    display: flex;
+    gap: .5rem;
+}
+
+.error_message{
+    font-family: "Montserrat", sans-serif;
+    color: rgb(255, 109, 109);
+}

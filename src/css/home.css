@@ -1,7 +1,7 @@
 main{
-    height: 80vh;
     width: 100%;
 
+    margin-top: -5%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,11 +14,10 @@ main .home{
     align-items: center;
 
     text-align: center;
-    object-fit: cover;
 }
 
 main .home img{
-    width: 50%;
+    width: 40%;
 
     filter: drop-shadow(1rem 1rem .9rem #00000080);  
     

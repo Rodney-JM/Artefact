@@ -1,8 +1,12 @@
 :root{
     --bg-home: #171C26;
     --bg-navbar: #2F3540;
-    --text-color: #c3c7d1;
+    --text-color: #cdd2e1;
     --text-color-secundary: #9699a0;
     --gadient-component1: #2f343e;
     --bg-hover: #52565f;
+    --input-bg: #687186;
+    --button-bg: #6d8fdc;
+    --button-bg-hover: #5a76ba;
+    --button-bg-active: #48609c;
 }

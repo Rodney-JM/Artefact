@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artefato - Fale conosco</title>
+
+    
+    <!-- fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./src/css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logotype">
+            <img src="./src/assets/icons/logotype.png" alt="logotype">
+        </div>
+        <nav class="navbar">
+            <ul>
+                <a href="index.html"><li>Home</li></a>
+                <a href="sobre.html"><li>Sobre</li></a>
+                <a href="#"><li>Fale conosco</li></a>
+            </ul>
+        </nav>
+        <div class="log_register">
+            <ul>
+                <a href="registro.html"><li>Registrar-se</li></a>
+                <a href="login.html" id="log"><li>Login</li></a>
+            </ul>
+        </div>
+        <div class="nav-inner-container"><i class="fa-solid fa-bars menu-button"></i></div> 
+    </header>
+    <main>
+        <section>
+            <h2 class="fc_title">Fale conosco via Email</h2>
+            <p class="fc_desc">Preencha os campos abaixo</p>
+            <form action="" method="post">
+                <input type="text" name="nome" placeholder="Nome" class="input">
+                <input type="email" name="email" placeholder="Email" class="input">
+                <input type="text" name="assunto" placeholder="Assunto" class="input">
+                <input type="text" name="mensagem" placeholder="Digite a mensagem" class="input input_large">
+                <button type="submit" class="lg_button">
+                    Enviar
+                </button>
+                <p id="error-message" class="error-message"></p>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

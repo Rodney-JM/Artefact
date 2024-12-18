@@ -3,6 +3,8 @@
 @import url(home.css);
 @import url(header.css);
 @import url(ab_home.css);
+@import url(login_page.css);
+@import url(fale-conosco.css);
 
 body{
     background:linear-gradient(to right, var(--bg-home), var(--gadient-component1));

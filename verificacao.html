@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artefato - Login</title>
+
+    
+    <!-- fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./src/css/main.css">
+</head>
+<body>
+    <a class="back" href="index.html"><i class="fa-solid fa-arrow-left"></i></a>
+    <main>
+        <section>
+            <div class="lg_content">
+                <h2>Enviamos um código <br>para o seu Email</h2>
+                <p>Insira o código no campo abaixo</p>
+            </div>
+
+          
+            <form id="verify_form" class="forms">
+                <input type="code" name="token" placeholder="Insira o código" class="input">
+                <button type="submit" class="lg_button">
+                    Confirm
+                </button>
+            </form>
+        </section>
+    </main>
+
+    <script src="./src/scripts/verify.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artefato - Login</title>
+
+    
+    <!-- fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./src/css/main.css">
+</head>
+<body>
+    <a class="back" href="index.html"><i class="fa-solid fa-arrow-left"></i></a>
+    <main>
+        <section>
+            <div class="lg_content">
+                <h2>Crie uma nova conta</h2>
+                <p>Já possui uma conta? <a href="login.html">Entre</a></p>
+            </div>
+
+            <form id="register_form" class="forms" method="post">
+                <div class="name">
+                    <input type="text" name="firstName" placeholder="Nome" class="input_half" required>
+                    <input type="text" name="lastName" placeholder="Sobrenome" class="input_half" required>
+                </div>
+                <input type="email" name="email" placeholder="Email" class="input" required>
+                <input type="password" name="password" placeholder="Crie a sua senha" class="input" required>
+                <button type="submit" class="lg_button">
+                    Create account
+                </button>
+            </form>
+            
+            <div class="lg_log_option_content">
+                <div class="lg_line"></div>
+                <p>Ou se registre com</p>
+                <div class="lg_line"></div>
+            </div>
+            <div class="lg_log_option">
+                <a href="" class="register_method">
+                    <img src="./src/assets/icons/logo_google.png" alt="Google logotype" width="70px">
+                    Google
+                </a>
+                <a href="" class="register_method">
+                    <img src="./src/assets/icons/insta_logo.png" alt="Instagram logotype" width="90px">
+                    Instagram
+                </a>
+            </div>
+        </div>
+        </section>
+    </main>
+
+    <script src="./src/scripts/register.js"></script>
+</body>
+</html>
