@@ -34,7 +34,7 @@ document.querySelector('form').addEventListener('submit', async (event) => {
     });
     
     if (response.ok) {
-        alert('Pedido enviado com sucesso!');
+        alert('Pedido enviado com sucesso');
     } else {
         document.getElementById('error-message').textContent = 'Erro ao enviar o pedido.';
     }
